@@ -15,7 +15,7 @@ console.log("Awaiting cronjob...");
 // Send Nintendo direct prediction
 new cron.CronJob(saturdayTime, async () => {
     tweet(saturdayimg);
-}, timezone = timezone, start = true);
+}, timezone, start = true);
 
 // Tweet function
 function tweet(saturdayimg) {
